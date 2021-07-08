@@ -17,6 +17,7 @@
    margin: 0;
    padding: 0;
  }
+
  header.main {
    text-align: center;
    @media (min-width: 30em) {
@@ -73,6 +74,32 @@
         }
       }
     }
+    .div,#cart {
+      article {
+        h2{
+          margin-top: 0;
+          text-align: center
+        }
+        background: white;
+        border-radius: 0.5em;
+        margin: lem;
+        padding: .01em;
+        @media(min-width: 30em){
+          margin: .15em;
+        }
+      }
+      input[type="submit" ] {
+        background-color: #881;
+        border-radius: 0.354em;
+        border: solid thin #441;
+        color: white;
+        font-size: lem;
+        padding: 0.354em lem;
+        margin: 0.15em;
+      }
+      input[type="submit"]:hover {
+        background-color: #992;
+      }
   }
   main{
     padding: 0.5em;
@@ -87,4 +114,6 @@
   margin-bottom: lem;
   padding: lem 1.414em;
   text-align: center;
+}
+
 }
