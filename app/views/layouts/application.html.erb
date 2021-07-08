@@ -18,7 +18,7 @@
     <section class="content">
       <% if @cart%>
       <nav class="side_nav">
-        <div id="cart" classs="carts">
+        <div id="cart" classs="carts  ">
           <%= render_if  @cart && @cart.line_items.any?, @cart %>
         </div>
         <% end %>
